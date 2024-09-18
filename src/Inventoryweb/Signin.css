@@ -1,0 +1,55 @@
+.signin-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7; 
+  }
+  
+  .signin-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card depth */
+  }
+  
+  .signin-card h2 {
+    font-family: 'Arial', sans-serif;
+    color: #007bff; /* Bootstrap primary blue */
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Subtle focus shadow */
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

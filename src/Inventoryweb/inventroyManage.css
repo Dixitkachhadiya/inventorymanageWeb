@@ -1,0 +1,150 @@
+.table-custom {
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table-custom thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .table-custom th,
+  .table-custom td {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .table-custom th {
+    text-transform: uppercase;
+  }
+  
+  .table-custom tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-responsive {
+    margin: 20px 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  @media (max-width: 768px) {
+    .table-custom thead {
+      display: none;
+    }
+  
+    .table-custom,
+    .table-custom tbody,
+    .table-custom tr,
+    .table-custom td {
+      display: block;
+      width: 100%;
+    }
+  
+    .table-custom tr {
+      margin-bottom: 15px;
+    }
+  
+    .table-custom td {
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+    }
+  
+    .table-custom td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* Adjust this based on your design */
+  }
+  
+  #card-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #card {
+    margin-top: 10px;
+  }
+  
+  #p1-text {
+    font-size: 45px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 315px;
+  }
+  
+  #p2-text {
+    font-size: 45px;
+    color: red;
+    font-weight: bold;
+    margin-left: 15px;
+    text-align: center;
+  }
+  
+  #p-text-div {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  
+  #p3-text {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  label.form-check-label {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  #buisness_category_button{
+    background-color: #135D66;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #chart{
+    color: red;
+  }
+  
+  h1 a{
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  #chartBar{
+    height: 600px;
+  }
+  
+  #chartBar title{
+    font-size: 30px;
+    color: #007bff;
+  }
+
+  .button-col{
+    padding: 20px;
+  }
+
+  .business-name{
+    text-align: center;
+  }
